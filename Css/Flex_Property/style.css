@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  /* align-items: center; */
+}
+.a,
+.b,
+.c {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 7px;
+  text-align: center;
+  align-content: center;
+}
+.column {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.rowr {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 5px;
+}
+
+.colr {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 5px;
+}
+
+.start {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.end {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.center {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.space-between {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.space-around {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.space-evenly {
+  border: 2px solid red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}

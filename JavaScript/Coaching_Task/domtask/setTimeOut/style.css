@@ -1,0 +1,54 @@
+/*#main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 200px;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+#btn {
+          height: 60px;
+          width: 120px;
+          border-radius: 10px;
+          font-size: 20px;
+          background-color: rgb(245, 66, 66);
+}*/
+
+#colour {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 300px;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid black;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+}
+#red {
+  /* background-color: red; */
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
+}
+#yellow {
+  /* background-color: yellow; */
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+#green {
+  /* background-color: green; */
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+}

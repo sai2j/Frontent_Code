@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.one {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.right {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+.two {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdle6b0R7v1huRBkW08EdnrkpHCyzSQiEGxM4aZYSYR9Haby-dLWHzrynkdIqllwcPM8k&usqp=CAU");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.three {
+  display: flex;
+}
+.four {
+  margin-left: 30%;
+}
+.four img {
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+}
+.five {
+          display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  flex-direction: column;
+}
+.five h1 {
+  padding: px;
+   /* justify-content: center;
+  text-align: center;
+  align-items: center; */
+}
+
+.five p {
+  height: 48px;
+  padding: 10px;
+   /* justify-content: center;
+  text-align: center;
+  align-items: center; */
+}
+.six h1{
+          display: flex;
+          justify-content: center;
+}
+
+.seven{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+
+}
+.seven img{
+          
+          height: 300px;
+          width: 250px;
+          margin: 20px;
+          border-radius: 10px;
+          margin-left: 20px;
+          margin-right: 20px;
+}

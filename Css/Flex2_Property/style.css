@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  padding: 30px;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px grey;
+}
+.body {
+  height: 60%;
+  width: 100%;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+}
+.one {
+  margin: 10px;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.two {
+  margin: 10px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  /* gap: 80px; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* top: 90px; */
+  border: 1px solid grey;
+  height: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.two div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three {
+  margin: 10px;
+  /* margin-left: 100px; */
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+}
+.four {
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+}
+.five {
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+
+  border: 1px solid black;
+}
+.footer {
+  border: 1px solid grey;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  height: 100px;
+  width: 100%;
+  box-shadow: 2px 2px 2px grey;
+}

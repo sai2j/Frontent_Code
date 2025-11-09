@@ -1,0 +1,146 @@
+/* *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+
+} */
+.first {
+  border: 2px solid rgb(73, 65, 65);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.a {
+  font-weight: 28px;
+  text-align: center;
+}
+.b {
+  border: 1px dotted black;
+  /* border-radius: 10%; */
+  margin: 10px;
+  height: 300px;
+}
+.c {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5%;
+  position: static;
+}
+.d {
+  margin: 10px;
+}
+.e {
+  border: 1px dotted black;
+  /* border-radius: 10%; */
+  margin: 10px;
+  height: 300px;
+}
+.f {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 5%;
+  position: relative;
+  top: 70px;
+}
+.g {
+  margin: 10px;
+}
+
+.h {
+  border: 1px dotted black;
+  /* border-radius: 10%; */
+  margin: 10px;
+  height: 400px;
+}
+
+.i {
+  margin: 10px;
+}
+
+.j {
+  border: 1px dotted black;
+  /* border-radius: 10%; */
+  margin: 10px;
+  height: 200px;
+}
+
+.k {
+  margin: 10px;
+}
+.l {
+  border: 1px dotted black;
+  /* border-radius: 10%; */
+  margin: 10px;
+  height: 400px;
+}
+.m {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 5%;
+  position: sticky;
+  top: 70px;
+  
+}
+.n {
+  margin: 10px;
+  /* height: 400px; */
+}
+.ab {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 5%;
+  position: absolute;
+  right: 50px;
+}
+.bb {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 5%;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+}
+/* .o {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 5%;
+  position: fixed;
+  right: 30px;
+  bottom: 200px;
+  /* display: flex; */
+

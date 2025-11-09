@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.one {
+  height: 250px;
+  width: 400px;
+  border: 2px solid blue;
+}
+h1 {
+  text-align: center;
+  padding: 100px;
+}
+.one {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px solid blue;
+  display: inline-block;
+}
+.two {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px dotted orange;
+  display: inline-block;
+}
+.three {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px dashed green;
+  display: inline-block;
+}
+
+.four {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px double purple;
+  display: inline-block;
+}
+
+.five {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px groove red;
+  display: inline-block;
+}
+
+.six {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px ridge yellow;
+  display: inline-block;
+}
+
+.seven {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px inset blue;
+  display: inline-block;
+}
+
+.eight {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px outset purple;
+  display: inline-block;
+}
+.nine {
+  border-radius: 50%;
+  /* margin: 10px; */
+  height: 250px;
+  width: 250px;
+  border: 2px outset purple;
+  display: inline-block;
+}
+
+.circle {
+  /* margin-left: 100px; */
+  text-align: center;
+  /* align-content: center; */
+  margin-top: 120px;
+}
+.ten {
+  margin: 10px;
+  height: 250px;
+  width: 400px;
+  /* border: 2px solid gray; */
+  border-top: 2px solid red;
+  border-radius: 10%;
+  display: inline-block;
+}
+.eleven {
+          padding-top: 50px;
+  height: 250px;
+  width: 400px;
+  border: 2px solid orangered;
+  border-radius: 10%;
+   text-align: center;
+  /* justify-content: center;
+  align-items: center; */ 
+}
+.twelve{
+           height: 250px;
+  width: 400px;
+border: 1px solid gray;
+background-color: linear-gradient(blue red);
+}

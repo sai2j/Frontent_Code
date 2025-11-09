@@ -1,0 +1,227 @@
+/* BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1f242d;
+  color: #fff;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: #1f242d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #0ef;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 35px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  color: #0ef;
+  border-bottom: 2px solid #0ef;
+}
+
+/* HOME */
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.home-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  animation: slideTop 1s ease forwards;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0ef;
+  margin-top: 10px;
+  animation: slideTop 1.2s ease forwards;
+}
+
+.home-content p {
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+/* ABOUT */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 100px 10%;
+  align-items: center;
+}
+
+.about-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text span {
+  color: #0ef;
+}
+
+/* SKILLS */
+.skills {
+  padding: 100px 10%;
+}
+
+.skills .heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.Technical-bars .bar {
+  margin-bottom: 25px;
+}
+
+.Technical-bars .bar i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #0ef;
+}
+
+.Technical-bars .bar span {
+  font-size: 18px;
+}
+
+.Technical-bars .bar .progress-line {
+  height: 10px;
+  width: 100%;
+  background: #000;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.Technical-bars .bar .progress-line span {
+  height: 100%;
+  background: #0ef;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+/* SKILL PERCENTAGES */
+.progress-line.html span { width: 90%; }
+.progress-line.css span { width: 80%; }
+.progress-line.javascript span { width: 75%; }
+.progress-line.react span { width: 70%; }
+
+.progress-line span::after {
+  position: absolute;
+  content: attr(data-percent);
+}
+
+.progress-line.html span::after {
+  content: "90%";
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+.progress-line.css span::after {
+  content: "80%";
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+.progress-line.javascript span::after {
+  content: "75%";
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+.progress-line.react span::after {
+  content: "70%";
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.contact h2 span {
+  color: #0ef;
+}
+
+/* ANIMATIONS */
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 30px;
+    flex-direction: column;
+  }
+  .navbar a {
+    margin: 10px;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+}

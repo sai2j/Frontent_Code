@@ -1,0 +1,66 @@
+.box {
+  height: 100px;
+  box-shadow: 0px 0px 5px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin: 6% auto;
+  border-radius: 10px;
+}
+
+.second {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.one {
+  /* margin: 10px; */
+  height: 400px;
+  padding: 20px;
+  width: 20%;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.one img {
+  border: 1px solid black;
+  border-radius: 10px;
+
+  height: 200px;
+  width: 300px;
+}
+.one button {
+  border-radius: 10px;
+  height: 50px;
+  width: 120px;
+}
+.a {
+  background-color: green;
+}
+.b {
+  background-color: blue;
+}
+.c {
+  background-color: red;
+}
+
+/*
+.two{
+
+          margin: 10px;
+          height:400px;
+          width:20%;
+          border-radius: 10px;
+          border: 1px solid black;
+
+}
+
+.three{
+          height:400px;
+          width:20%;
+          border-radius: 10px;
+          border: 1px solid black;
+
+} */
