@@ -29,16 +29,14 @@ section{
 }
 .heading{
           text-align: center;
-          text-decoration: underline;
-          text-underline-offset:10px ;
-          text-decoration-thickness: 5px;
+          /* underline removed */
           margin-bottom: 50px;
 }
 .bar{
               font-size:23px;
 
 }
-.Technical-bars .bar* {
+.Technical-bars .bar {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -73,9 +71,7 @@ section {
 
 .heading {
   text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 5px;
+  /* underline removed */
   margin-bottom: 50px;
 }
 
