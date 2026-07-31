@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+
+  <style>
+    .bg-style {
+      background-color: blue;
+      height: 100vh;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding-top: 50px;
+    }
+  </style>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  <!-- React -->
+  <script src="../node_modules/react/umd/react.development.js"></script>
+  <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+  <script src="../node_modules/@babel/standalone/babel.js"></script>
+</head>
+
+<body>
+  <noscript>Please enable JavaScript in your browser</noscript>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    function NetflixIndex() {
+      return (
+        <div className="bg-style">
+          <NetflixHeader />
+          <NetflixMain />
+        </div>
+      );
+    }
+
+    function NetflixHeader() {
+      return (
+        <header>
+          <h1>Netflix Clone</h1>
+        </header>
+      );
+    }
+
+    function NetflixMain() {
+      return (
+        <main>
+          <NetflixRegister />
+        </main>
+      );
+    }
+
+    function NetflixRegister() {
+      return (
+        <div>
+          <h2>Register Here</h2>
+          <input type="text" placeholder="Enter Email" className="form-control w-50 m-auto mt-3" />
+          <button className="btn btn-danger mt-3">Get Started</button>
+        </div>
+      );
+    }
+
+    ReactDOM.render(<NetflixIndex />, document.getElementById("root"));
+  </script>
+</body>
+</html>
